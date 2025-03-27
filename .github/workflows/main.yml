@@ -1,0 +1,14 @@
+name: CodeQL Analysis
+on:
+push:
+  branches: [ main ]
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Setup CodeQL
+        uses: github/codeql-action/setup-codeql@v2
+      - name: Analyze code
+        uses: github/codeql-action/analyze@v2
