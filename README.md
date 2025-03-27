@@ -1,2 +1,2 @@
 # POC18
-Repo to demonstrate the CodeQL CL automation on a vulnerable code
+Repo to demonstrate the CodeQL CLI automation on code vulnerable to SQL injection
